@@ -10,10 +10,10 @@
       "roleType": 3
     },
     {
-      "username": "aaa",
-      "password": "123",
-      "roleName": "小编",
-      "roleType": 1,
+      "username": "小涛",
+      "password": "123456",
+      "roleName": "管理员",
+      "roleType": 2,
       "roleState": true,
       "id": 2
     }
@@ -365,6 +365,18 @@
       "author": "aaa",
       "roleType": 1,
       "id": 4
+    },
+    {
+      "title": "我是嫩爹",
+      "category": [
+        "娱乐",
+        "电影",
+        "日韩"
+      ],
+      "content": "<p>小涛 涛 涛涛</p>\n",
+      "author": "admin",
+      "roleType": 3,
+      "id": 5
     }
   ]
 }

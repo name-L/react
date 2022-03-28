@@ -12,16 +12,16 @@ class BlogRouter extends Component {
         return <Router>
             <Switch>
                 <Route path="/login" component={Login}></Route>
-                {
+                {/* {
                     localStorage.getItem("isLogin") === "true" ?
                         <Route path="/" component={DashBorad}></Route>
                         : <Redirect to="/login"></Redirect>
-                }
-                {/* <Route path="/" render={()=>{
+                } */}
+                <Route path="/" render={()=>{
                     return localStorage.getItem("isLogin")==="true"?
                     <DashBorad></DashBorad>
                     :<Redirect to="/login"></Redirect>
-                }}></Route> */}
+                }}></Route>
             </Switch>
         </Router>
     }
